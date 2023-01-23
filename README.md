@@ -6,11 +6,13 @@ I will use this repository as a central location for collecting and organizing a
 
 ## Description
 
-Design patterns are reusable solutions to common problems that arise during software development. I will explore if design patterns can help developers not only to solve these common problems, but without introducing security vulnerabilities in their code. By incorporating Secure by Design principles while exploring these patterns I hope to find some insight how one can argue why design patterns is your first line of defence. 
+Design patterns are reusable solutions to common problems that arise during software development. 
+I will explore if design patterns can help developers not only to solve these common problems, but without introducing security vulnerabilities in their code. 
+By incorporating Secure by Design principles while exploring these patterns I hope to find some insight how one can argue why design patterns is your first line of defence. 
 
 Additionally, I want to learn which patterns are more suitable for specific problems.
 
-
+_Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är det?_ 
 
 ### Principles in code that design patterns embrace that can improve security
 
@@ -20,6 +22,10 @@ Additionally, I want to learn which patterns are more suitable for specific prob
 - Immutability - immutable object are safe to share between threads and open up high data availability - an important aspect of denial of service attacks - Builder pattern
 
 - The Singleton pattern can be used to ensure that only one instance of a class is created, this can be useful in managing resources that need to be shared across an application and preventing unauthorized instantiation of a class.
+
+### Goals
+
+- 
 
 
 ## Pitch
