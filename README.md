@@ -8,7 +8,7 @@ I will use this repository as a central location for collecting and organizing a
 
 Design patterns are reusable solutions to common problems that arise during software development. I will explore if design patterns can help developers not only to solve these common problems, but without introducing security vulnerabilities in their code. By incorporating Secure by Design principles while exploring these patterns I hope to find some insight how one can argue why design patterns is your first line of defence. 
 
-Additionaly, I want to learn which patterns are more suitable for specific problems.
+Additionally, I want to learn which patterns are more suitable for specific problems.
 
 
 
@@ -17,7 +17,7 @@ Additionaly, I want to learn which patterns are more suitable for specific probl
 - Loose coupling 
     - Chain of Responsibility, Command, Mediator, and Observer patterns, promote loose coupling between objects, making it more difficult for an attacker to exploit dependencies and gain unauthorized access to sensitive data.
 - DRY - Don't Repeat Yourself - ...
-- Immutability - immutable object are safe to share between threads and open up high data availability - an importants aspect of denial of service attacks - Builder pattern
+- Immutability - immutable object are safe to share between threads and open up high data availability - an important aspect of denial of service attacks - Builder pattern
 
 - The Singleton pattern can be used to ensure that only one instance of a class is created, this can be useful in managing resources that need to be shared across an application and preventing unauthorized instantiation of a class.
 
