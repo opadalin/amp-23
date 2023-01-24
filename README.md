@@ -25,8 +25,11 @@ _Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är d
 
 ### Goals
 
-- 
+- Create the course Design Patterns 101
 
+- Competence-day presentation
+- OpKoKo talk
+- Presentation on external event
 
 ## Pitch
 
