@@ -10,9 +10,9 @@ Design patterns are reusable solutions to common problems that arise during soft
 I will explore if design patterns can help developers not only to solve these common problems, but without introducing security vulnerabilities in their code. 
 By incorporating Secure by Design principles while exploring these patterns I hope to find some insight how one can argue why design patterns is your first line of defence. 
 
-Additionally, I want to learn which patterns are more suitable for specific problems.
+Additionally, I want to learn which patterns are more suitable for specific problems. Can these
 
-_Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är det?_ 
+_Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är det?_
 
 ### Principles in code that design patterns embrace that can improve security
 
@@ -26,6 +26,7 @@ _Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är d
 ### Goals
 
 - Create the course Design Patterns 101
+- Create a tool set for easy accessible content to be delivered on a bigger scale
 
 - Competence-day presentation
 - OpKoKo talk
@@ -33,4 +34,25 @@ _Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är d
 
 ## Pitch
 
-Design patterns are a powerful tool that can help improve the security of your codebase. Some patterns promote loose coupling, others limit instantiation of classes or create secure objects by incorporating secure by design principles. By using design patterns as a first line of defense in your codebase, you can improve the overall security of your codebase and reduce the risk of vulnerabilities.
+### Summary
+_The elevator pitch is a one-sentence summary of your proposition – the thing you want people to remember after they leave the room. 
+It needs to explain what your idea does, who it’s for, and why it’s great. To give an example, here’s an (imaginary) elevator pitch for the Rubik’s Cube:_
+
+_- “A colorful pocket-size puzzle box for all ages that can be twisted in every direction.”_
+
+### Draft 2
+Befinner ni er någonsing i situationer där ni tänker, hur ska jag formulera mig nu? Eller, hur ska jag lösa det här på bästa sätt?
+
+Som som kodare dyker _ofta_ dessa frågor upp när det kommer till att designa bra, objekt-orienterad mjukvara.
+
+Introducing design patterns!
+
+Design patterns är välbeprövade mönster i kod som återkommande, återfinns i otaliga kodbaser, och de "bara funkar".
+
+- Jag vill utforska design patterns och försöka lyfta de till nästa nivå.
+- Jag vill i riktig Omegapoint-anda applicera Secure by Design principer och paketera min upptäckter för andra att ta del av.
+- Jag vill göra det här; för oss, för mig, för att jag vill det.
+
+### Draft 3
+
+...
