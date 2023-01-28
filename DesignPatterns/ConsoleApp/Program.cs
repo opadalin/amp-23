@@ -15,5 +15,3 @@ logger1.Log($"Message from {nameof(logger1)}");
 logger2.Log($"Message from {nameof(logger2)}");
 
 Logger.Instance.Log($"Message from {nameof(Logger.Instance)}");
-
-Console.ReadLine();

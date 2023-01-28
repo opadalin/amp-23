@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns", "Struc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{681560A3-9184-40CA-A722-F4F96572C58E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatterns", "BehavioralPatterns\BehavioralPatterns.csproj", "{2FFB1E63-56B6-4E40-A1BB-10293541C8D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{681560A3-9184-40CA-A722-F4F96572C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681560A3-9184-40CA-A722-F4F96572C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681560A3-9184-40CA-A722-F4F96572C58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFB1E63-56B6-4E40-A1BB-10293541C8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFB1E63-56B6-4E40-A1BB-10293541C8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFB1E63-56B6-4E40-A1BB-10293541C8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFB1E63-56B6-4E40-A1BB-10293541C8D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3BF7A662-E986-4D31-B14B-238BB4D5FB57} = {6328A0C9-0FA2-4228-A715-E12A6B80701A}

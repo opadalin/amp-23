@@ -34,7 +34,7 @@ _Hur kan design patterns hjälpa överlag med hur team levererar idag. Vad är d
 
 ## Pitch
 
-### Summary
+### An example
 _The elevator pitch is a one-sentence summary of your proposition – the thing you want people to remember after they leave the room. 
 It needs to explain what your idea does, who it’s for, and why it’s great. To give an example, here’s an (imaginary) elevator pitch for the Rubik’s Cube:_
 
@@ -43,7 +43,7 @@ _- “A colorful pocket-size puzzle box for all ages that can be twisted in ever
 ### Draft 2
 Befinner ni er någonsing i situationer där ni tänker, hur ska jag formulera mig nu? Eller, hur ska jag lösa det här på bästa sätt?
 
-Som som kodare dyker _ofta_ dessa frågor upp när det kommer till att designa bra, objekt-orienterad mjukvara.
+Som kodare dyker _ofta_ dessa frågor upp när det kommer till att designa bra, objekt-orienterad mjukvara.
 
 Introducing design patterns!
 

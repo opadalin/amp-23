@@ -9,7 +9,7 @@ public class Logger
 {
     private static Logger _instance;
 
-    protected Logger()
+    private Logger()
     {
     }
 
