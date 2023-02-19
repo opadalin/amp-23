@@ -78,7 +78,7 @@ Proin vestibulum libero arcu, vel gravida quam facilisis id.
 
 ### Swedish verison
 
-Nya konsulten på uppdraget vill visa vad han går för. Den nya kunden har höga förväntningar. I ett nytt åtagande är det viktigt att leverera värde från start. Vi på Omegapoint är experter inom våra områden och med "Design Patterns as a First Line of Defence"-modellen tar vi hjälp av varandras expertis.
+Nya konsulten på uppdraget vill visa vad hon går för. Den nya kunden har höga förväntningar. I ett nytt åtagande är det viktigt att leverera värde från start. Vi på Omegapoint är experter inom våra områden och med "Design Patterns as a First Line of Defence"-modellen tar vi hjälp av varandras expertis.
 
 Med modellen kan vi snabbt bygga upp en anpassningsbar och säker lösning som är baserad på berövade koncept som vi vet kommer att fungera. Mitt mål är att öka kunskapen inom Omegapoint för design patterns eftersom jag tror det kommer inte bara lyfta bolaget utan även konsulten själv.
 
