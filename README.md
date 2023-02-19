@@ -45,7 +45,7 @@ My personal goal is to learn more about design patterns. I want to be the “go-
 
 ### Design Patterns as a First Line of Defence Delivery Model
 
-I aim to create a model framework to be delivered to team commitments that can be used to kick-start a project. My vision is that teams will be able to use this model to create their first proof-of-concept and start building a straw pipe for the customer with flexible templates on how to approach different design problems, and always with Secure by Design principles in mind.
+I aim to create a model to be delivered to team commitments that can be used to kick-start a project. My vision is that teams will be able to use this model to create their first proof-of-concept and start building a straw pipe for the customer with flexible templates on how to approach different design problems, and always with Secure by Design principles in mind.
 
 #### The Delivery Model
 
