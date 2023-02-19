@@ -2,19 +2,19 @@ using System;
 
 namespace ConsoleApp;
 
-public class ConsoleRunner
+public class CommandLineInterface
 {
     private readonly string _name;
 
-    public ConsoleRunner(string name)
+    public CommandLineInterface(string name)
     {
         _name = name;
     }
 
     public void Run()
     {
-        bool quitApplication;
         Welcome();
+        bool quitApplication;
         do
         {
             quitApplication = InputController(ReadInput("Choose pattern: ").Trim());
@@ -29,10 +29,9 @@ public class ConsoleRunner
             case "cls":
                 ClearConsole();
                 break;
-            case "Q":
             case "q":
                 return Quit();
-            case "help":
+            case "ls":
                 ListAvailablePatterns();
                 break;
             case "factory method":
@@ -59,6 +58,7 @@ public class ConsoleRunner
     private static string ReadInput(string prompt)
     {
         string input;
+        int counter = 0;
         do
         {
             Console.Write(prompt);
@@ -73,7 +73,16 @@ public class ConsoleRunner
                           input.Equals(Environment.NewLine);
             if (isEmpty)
             {
-                Console.WriteLine("Write something");
+                counter++;
+                if (counter == 5)
+                {
+                    Console.WriteLine("TIP: type 'ls' to see the patterns that are available");
+                    counter = 0;
+                }
+                else
+                {
+                    Console.WriteLine("Please write something");
+                }
             }
 
             return isEmpty;

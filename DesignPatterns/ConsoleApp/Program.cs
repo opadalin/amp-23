@@ -1,4 +1,4 @@
 ﻿using ConsoleApp;
 
-var consoleRunner = new ConsoleRunner("Design Patterns 101");
-consoleRunner.Run();
+var cli = new CommandLineInterface("Design Patterns 101");
+cli.Run();
