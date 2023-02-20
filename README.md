@@ -51,7 +51,7 @@ I aim to create a model to be delivered to team commitments that can be used to 
 
 The delivery model will consist of a git repository with a simple microservice architecture. In the repository there will be a solution with examples on how one can approach common design problems with a single or multiple design patterns.
 
-### Create the course “Design Patterns 201”
+### Create the course “Secure your Design Patterns”
 
 My initial idea is that I as the teacher will act like a product owner and ask for new functionality and then go through with the class on how one can approach these problems with a design pattern. They will then follow my lead and try to solve it the same as I did or with their own solution. In the end of the class, we will discuss the solutions together and see if there are any improvements to be made.
 

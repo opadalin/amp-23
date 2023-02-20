@@ -1,8 +1,8 @@
 using Xunit;
 
-namespace CreationalTests;
+namespace CreationalPatterns.Tests;
 
-public class UnitTest1
+public class FactoryMethodTests
 {
     [Fact(DisplayName = "Test")]
     public void Test1()
