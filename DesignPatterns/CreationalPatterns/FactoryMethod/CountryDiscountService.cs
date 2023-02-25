@@ -20,7 +20,7 @@ public class CountryDiscountService : DiscountService
             {
                 "SE" => 5,
                 "BE" => 20,
-                _ => 10
+                _ => 0
             };
         }
     }

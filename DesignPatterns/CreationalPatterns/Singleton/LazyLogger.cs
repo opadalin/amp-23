@@ -16,7 +16,7 @@ public class LazyLogger
 
     public static LazyLogger Instance => Logger.Value;
 
-    public void Log(string message)
+    public static void Log(string message)
     {
         Console.WriteLine(message);
     }

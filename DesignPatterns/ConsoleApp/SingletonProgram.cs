@@ -11,12 +11,12 @@ public static class SingletonProgram
 
         if (logger1 == logger2 && logger2 == LazyLogger.Instance)
         {
-            logger1.Log("Instances are the same.");
+            LazyLogger.Log("Instances are the same.");
         }
 
-        logger1.Log($"Message from {nameof(logger1)}");
-        logger2.Log($"Message from {nameof(logger2)}");
+        LazyLogger.Log($"Message from {nameof(logger1)}");
+        LazyLogger.Log($"Message from {nameof(logger2)}");
 
-        LazyLogger.Instance.Log($"Message from {nameof(LazyLogger.Instance)}");
+        LazyLogger.Log($"Message from {nameof(LazyLogger.Instance)}");
     }
 }
