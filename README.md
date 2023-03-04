@@ -34,8 +34,8 @@ I will scope my work to be applicable for microservices in Azure. The examples w
 
 ## Goals
 
-- Design Patterns as a First Line of Defence Delivery catalogue
-- Create the course “Design Patterns 201”
+- Design Patterns as a First Line of Defence Delivery Catalogue
+- Create the course “Secure your Design Patterns”
 - Blog posts
 - OpKoKo talk
 - Competence-day presentation
@@ -43,7 +43,7 @@ I will scope my work to be applicable for microservices in Azure. The examples w
 
 My personal goal is to learn more about design patterns. I want to be the “go-to” person whenever someone wants to talk about design patterns in code. And my main focus will be to create the delivery catalogue.
 
-### Design Patterns as a First Line of Defence Delivery catalogue
+### Design Patterns as a First Line of Defence Delivery Catalogue
 
 I aim to create a catalogue to be delivered to team commitments that can be used to kick-start a project. My vision is that teams will be able to use this catalogue to create their first proof-of-concept and start building a straw pipe for the customer with flexible templates on how to approach different design problems, and always with Secure by Design principles in mind.
 
@@ -74,7 +74,7 @@ Proin vestibulum libero arcu, vel gravida quam facilisis id.
 
 ## Pitch
 
-### Swedish verison
+### Swedish version
 
 Nya konsulten på uppdraget vill visa vad hon går för. Den nya kunden har höga förväntningar. I ett nytt åtagande är det viktigt att leverera värde från start. Vi på Omegapoint är experter inom våra områden och med "Design Patterns as a First Line of Defence"-katalogen tar vi hjälp av varandras expertis.
 
