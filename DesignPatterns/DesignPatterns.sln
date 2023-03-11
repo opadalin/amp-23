@@ -6,11 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6328A0C9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatterns.Tests", "CreationalPatterns.Tests\CreationalPatterns.Tests.csproj", "{3BF7A662-E986-4D31-B14B-238BB4D5FB57}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{07F17EEA-CE5C-4173-BB45-E0E49D14E82F}"
-	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns", "StructuralPatterns\StructuralPatterns.csproj", "{B787F6CF-F9EA-4CEE-B0C8-BF48AFEB2906}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{681560A3-9184-40CA-A722-F4F96572C58E}"

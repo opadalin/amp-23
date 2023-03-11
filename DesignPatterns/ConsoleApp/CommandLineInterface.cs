@@ -58,7 +58,7 @@ public class CommandLineInterface
     private static string ReadInput(string prompt)
     {
         string input;
-        int counter = 0;
+        var counter = 0;
         do
         {
             Console.Write(prompt);
@@ -71,21 +71,22 @@ public class CommandLineInterface
         {
             var isEmpty = string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input) ||
                           input.Equals(Environment.NewLine);
-            if (isEmpty)
+            if (!isEmpty)
             {
-                counter++;
-                if (counter == 5)
-                {
-                    Console.WriteLine("TIP: type 'ls' to see the patterns that are available");
-                    counter = 0;
-                }
-                else
-                {
-                    Console.WriteLine("Please write something");
-                }
+                return true;
+            }
+            counter++;
+            if (counter == 5)
+            {
+                Console.WriteLine("TIP: type 'ls' to see the patterns that are available");
+                counter = 0;
+            }
+            else
+            {
+                Console.WriteLine("Please write something");
             }
 
-            return isEmpty;
+            return false;
         }
     }
 

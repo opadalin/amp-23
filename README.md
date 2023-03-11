@@ -8,7 +8,7 @@ I will use this repository as a central location for collecting and organizing a
 
 For my Academy Master Program, I will focus on design patterns in software solutions and deep dive into the security aspect of some of these patterns. I will explore whether design patterns can help developers, to not only solve common problems, but to do so without introducing security vulnerabilities in their code. By incorporating Secure by Design principles while exploring these patterns I hope to gain insight in how one can argue why design patterns is your first line of defence. (Bergh Johnsson, D., Deogun, D., & Sawano, D. (2019). Secure by Design. Manning.)
 
-As part of Omegapoint’s delivery catalogue I aim to create a toolset for easily accessible content to be delivered on a larger scale. This toolset could be used for new customer commitments and existing commitments we have today.
+As part of Omegapoint’s delivery catalogue I aim to create a catalogue for easily accessible content to be delivered on a larger scale. This catalogue could be used for new customer commitments and existing commitments we have today.
 
 ### Background to Design Patterns
 
@@ -57,20 +57,19 @@ I am not yet sure if the course will be based on the delivery catalogue or the o
 
 ### Blog posts
 
-Blog about different patterns. Where can I do this?
+Blog about different patterns and their use cases in a microservice architechture in Azure.
 
 ### OpKoKo talk
 
-
+I would like to prepare a OpKoKo presentation for the autumn talking about something related to my AMP.
 
 ### Competence-day presentations
 
-Sed lobortis placerat nisl vel facilisis.
+Plan and prepare competence-day presentations.
 
 ### Presentation on external event
 
-Proin vestibulum libero arcu, vel gravida quam facilisis id.
-
+Swetugg 2024!
 
 ## Pitch
 
