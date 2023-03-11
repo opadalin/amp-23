@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{AE4F6CBE-70A9-4185-9BE5-45D7F24F30A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IaC", "IaC", "{77DA65F5-740A-41EB-9323-2AC8E606ACA5}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\delivery-catalogue-deploy-action.yml = ..\.github\workflows\delivery-catalogue-deploy-action.yml
+		..\.github\workflows\delivery-catalogue-build-action.yml = ..\.github\workflows\delivery-catalogue-build-action.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

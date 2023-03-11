@@ -1,0 +1,36 @@
+#name: Deploy to Azure
+#
+#on:
+#  push:
+#    branches: [ main ]
+#    pull_request:
+#      branches: [ main ] # Change this to the branch you want to deploy from
+#jobs:
+#  build-and-deploy:
+#    runs-on: ubuntu-latest
+#    
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v2
+#
+#      - name: Setup .NET
+#        uses: actions/setup-dotnet@v1
+#        with:
+#          dotnet-version: '6.0.x'
+#
+#      - name: Build and publish Azure Function app
+#        run: |
+#          dotnet build
+#          dotnet publish
+#
+#      - name: Login to Azure
+#        uses: azure/login@v1
+#        with:
+#          creds: ${{ secrets.AZURE_CREDENTIALS }}
+#
+#      - name: Create Azure resources
+#        uses: azure/bicep-deploy@v1.0.0
+#        with:
+#          resource-group: myResourceGroup
+#          template-file: ./myBicepScript.bicep
+#          parameters: rgName=myResourceGroup saName=myStorageAccount containerName=myBlobContainer
