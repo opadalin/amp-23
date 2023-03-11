@@ -29,7 +29,8 @@ jobs:
       - name: Build solution
         run: dotnet build -p ./**/**.sln --configuration Release --no-restore
 
-      - name: Run test |
+      - name: Run test
+        run: |
           for project in $(find . -name "*Tests.csproj" -type f); do
           dotnet test $project --configuration Release
           done
