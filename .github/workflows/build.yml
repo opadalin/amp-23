@@ -24,14 +24,14 @@ jobs:
           dotnet-version: 6.0.x
 
       - name: Restore NuGet dependencies
-        run: dotnet restore ./**/**.sln
+        run: dotnet restore ./*/*.sln
 
       - name: Build solution
-        run: dotnet build -p ./**/**.sln --configuration Release --no-restore
+        run: dotnet build ./*/*.sln --configuration Release --no-restore
 
       - name: Run test
         run: |
           for project in $(find . -name "*Tests.csproj" -type f); do
-          dotnet test $project --configuration Release
+            dotnet test $project --configuration Release
           done
         
