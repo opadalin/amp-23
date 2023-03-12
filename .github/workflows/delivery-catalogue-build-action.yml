@@ -1,7 +1,7 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: Build
+name: Build Pipeline
 
 on:
   push:
@@ -23,15 +23,21 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
-      - name: Restore NuGet dependencies
+      - name: dotnet restore
         run: dotnet restore ./*/DeliveryCatalogue.sln
 
-      - name: Build solution
+      - name: dotnet build
         run: dotnet build ./*/DeliveryCatalogue.sln --configuration Release --no-restore
 
-      - name: Run test
+      - name: dotnet test
         run: |
           for project in $(find . -name "*Tests.csproj" -type f -path "./DeliveryCatalogue/**"); do
             dotnet test $project --configuration Release
           done
-        
+          
+      - name: Upload artefact
+        uses: actions/upload-artifact@v3
+        with:
+          name: delivery-catalogue
+          
+
